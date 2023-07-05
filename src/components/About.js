@@ -8,8 +8,8 @@ export default function About() {
                 color: "black" ,
                 backgroundColor:"white"
             })
-          
             setMybutton("Dark Mode")
+          
         }
         else
         {
@@ -18,6 +18,7 @@ export default function About() {
                 backgroundColor:"black"
             })  
             setMybutton("Light Mode")
+          
         }
       
      }
