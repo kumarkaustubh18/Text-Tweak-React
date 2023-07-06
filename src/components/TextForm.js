@@ -33,7 +33,7 @@ export default function TextForm(props) {
 <div className="container my-2">
     <h1>Your Text Summary</h1>
     <p>
-        Total words={text.split(" ").length}
+        Total words={text.split(" ").filter((element)=>{return element.length!==0}).length}
         Total length={text.length}
     </p>
     <p>{text}</p>

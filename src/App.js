@@ -1,4 +1,4 @@
-import React , { startTransition, useState }  from 'react'
+import React , {  useState }  from 'react'
 import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <Router>
-  <Navbar title="TextUtils"  mode={mode} toggleMode={toggleMode} />
+  <Navbar title="TextTweak"  mode={mode} toggleMode={toggleMode} />
   <div className="container">
 
   <Routes>
