@@ -29,7 +29,7 @@ function App() {
   <div className="container">
 
   <Routes>
-  <Route path='/' element={<TextForm  mode={mode}/>} />
+  <Route path='/kumarkaustubh18/Starting-React' element={<TextForm  mode={mode}/>} />
     <Route path="/about" element ={  <About />}/>   
     </Routes>
   </div>
